@@ -80,18 +80,15 @@ python search.py
 - Run basic test queries
 - Preview sample indexed files
 
-### 3. Start the MCP Search Server
+### 3. Connect the MCP Search Server in Your AI App/Client
 
-```bash
+Instead of running the server manually, add the following command to your Claude Desktop, ChatGPT, or other MCP-compatible client as a tool/plugin configuration:
+
+```
 python daz-obsidian-mcp.py
 ```
 
-The server exposes tools:
-
-- `search_snippets` — Find the best content snips for a prompt
-- `search_full` — Retrieve the entire, reassembled note/article for a prompt
-
-It integrates with any MCP-compatible client or LLM pipeline.
+This lets your chosen client/tool launch and interact with the server directly. See your platform's documentation for how to add a custom tool/command.
 
 ---
 
@@ -117,7 +114,7 @@ It integrates with any MCP-compatible client or LLM pipeline.
 
 ---
 
-## 📜 Notes & Troubleshooting
+## 📝 Notes & Troubleshooting
 
 - If you see "ChromaDB database not found", run `scanner.py` first.
 - To re-index everything: delete the `obsidian_chromadb/` folder and metadata, rerun the indexer.
