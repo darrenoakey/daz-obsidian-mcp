@@ -139,3 +139,7 @@ MIT License (c) 2024 — Your Name Here
 ---
 
 > ⬆️ _Add your own **banner.jpg** image at the top of this folder to complete the visual branding!_
+
+## License
+
+This project is licensed under [CC BY-NC 4.0](https://darren-static.waft.dev) - free to use and modify, but no commercial use without permission.
